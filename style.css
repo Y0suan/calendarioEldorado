@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+}
+.navHorizontal{
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(58, 74, 250);
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius:15px;
+}
+.user{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user span{
+    font-size: 100px;
+}
+.herramientas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    width: 100%;
+    height: 60vh;   
+}
+.herramientas a{
+    text-decoration: none;
+    color: white;
+}
+.herramientas span{
+    font-size: 20px;
+}
+.herramientas a:hover{
+    color: rgb(210, 210, 251);
+}
+
+.userClose{
+    width: 100%;
+    height: 10vh;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+}
+.userClose a{
+    text-decoration: none;
+    color: white;
+}
+.userClose span{
+    font-size: 15px;
+}
+
+
+.agregarEvento{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.agregarEvento h1{
+    color:  rgb(191, 191, 191) ;
+}
+.formularioEvent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.formularioEvent div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.formularioEvent label{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.formularioEvent input{
+    background-color: rgb(241, 241, 241);
+    border: none;
+    height: 40px;
+    min-width: 230px;
+    border-radius: 10px;
+}
+.formularioEvent select{
+    background-color: rgb(241, 241, 241);
+    border: none;
+    height: 40px;
+    min-width: 230px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+.formularioEvent option{
+  font-size: 15px;
+}
+.formularioEvent button{
+    background-color: rgb(241, 241, 241);
+    border: none;
+    height: 40px;
+    min-width: 230px;
+    border-radius: 10px;
+    margin: 40px;
+}

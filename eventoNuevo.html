@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <title>Panel inicial</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+</head>
+<body>
+
+    <div class="navHorizontal">
+        <div class="user"> 
+            <span class="material-symbols-outlined">manage_accounts</span>
+            <p>User Admi</p>
+        </div>
+        <div class="herramientas">
+            <span class="material-symbols-outlined">calendar_month <a href="#">Vista Mensual</a></span>
+            <span class="material-symbols-outlined">edit_calendar <a href="./eventoNuevo.html">Evento Nuevo</a></span>
+            <span class="material-symbols-outlined">event <a href="#">Activos</a></span>   
+            <span class="material-symbols-outlined">inventory_2 <a href="#">Archivados</a></span>  
+            <span class="material-symbols-outlined">mark_email_unread <a href="#">Notificaciones</a></span>    
+            <span class="material-symbols-outlined">inventory <a href="#">Informes</a></span>      
+            <span class="material-symbols-outlined">contact_phone  <a href="#">Consultas</a></span>      
+            <span class="material-symbols-outlined">group_add <a href="#">Usuarios</a></span>   
+        </div>
+        <div class="userClose">
+            <span class="material-symbols-outlined">logout <a href="#">Cerrar sesion</a></span>
+        </div>
+    </div>
+
+    <div class="agregarEvento">
+        <h1>Aregar Evento</h1>
+        <form class="formularioEvent" id="formulario-event" >
+            <!--<input id="id" type="hiddeb"> id que vamos a recibir de firebase -->
+
+            <div>
+            <label >Titulo</label>
+            <input type="text" id="titulo" >
+            </div>
+
+            <div>
+            <label >Imagen</label>
+            <input type="file" id="imagen" >
+            </div>
+
+            <div>
+            <label >Detalles</label>
+            <input type="textArea" id="detalles" >
+            </div>
+
+            <div>
+            <label>Observaciones</label>
+            <input type="textArea" id="observaciones" >
+            </div>
+
+            <div>
+            <label >Valor</label>
+            <input type="numer" id="valor" >
+            </div>
+            
+            <div>
+            <label >Evento/Noticia</label>
+            <select name="select">
+                <option value="evento">Evento</option>
+                <option value="noticia">Noticia</option>
+            </select>
+            </div>
+
+            <button id="btnGuardar">Guardar</button>
+
+        </form>
+    </div> 
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
